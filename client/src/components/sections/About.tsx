@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { achievements } from "@/lib/data";
 import { Award, Calendar, Users, CheckCircle } from "lucide-react";
+import momo2 from "@assets/momo 2.jpeg";
 
 // Map icon strings to components
 const iconMap: Record<string, any> = {
@@ -55,7 +56,7 @@ export function About() {
               <div className="h-80 rounded-2xl overflow-hidden shadow-lg">
                 {/* Doctor working / Consultation */}
                 <img 
-                  src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&auto=format&fit=crop&q=60" 
+                  src={momo2} 
                   alt="Consultation" 
                   className="w-full h-full object-cover"
                 />

@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { Link } from "react-scroll";
+import momoImage from "@assets/momo 1.jpeg";
 
 export function Hero() {
   return (
@@ -77,10 +78,9 @@ export function Hero() {
           className="relative h-[500px] md:h-[700px] w-full flex justify-center lg:justify-end"
         >
           <div className="relative h-full w-full max-w-md lg:max-w-lg rounded-t-[200px] overflow-hidden shadow-2xl border-8 border-white">
-            {/* Elegant Portrait Placeholder - Unsplash */}
-            {/* Woman with clear skin close up portrait */}
+            {/* Dr. Debaleena Ghosh Portrait */}
             <img 
-              src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1600&auto=format&fit=crop" 
+              src={momoImage} 
               alt="Dr. Debaleena Ghosh" 
               className="w-full h-full object-cover"
             />
