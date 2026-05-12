@@ -11,6 +11,32 @@ import {
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Sparkles, Clock, Sun, Zap, Activity, Smile, ArrowUpRight } from "lucide-react";
+import acneManagement from "@assets/treatments/Acne Management.jpeg";
+import exosomeHair from "@assets/treatments/Exosome treatment of hair.jpeg";
+import exosomeScars from "@assets/treatments/Exosome treatment of scars.jpeg";
+import laserPigmentation1 from "@assets/treatments/Laser for pigmentation.jpeg";
+import laserPigmentation2 from "@assets/treatments/Laser for pigmentation2.jpeg";
+import clinicalDermatology1 from "@assets/treatments/Clinical Dermatology.jpeg";
+import clinicalDermatology2 from "@assets/treatments/Clinical Dermatology2.jpeg";
+import clinicalDermatology3 from "@assets/treatments/Clinical Dermatology3.jpeg";
+import botox from "@assets/treatments/botox.jpeg";
+import moleRemoval from "@assets/treatments/Removal of DPN, warts, tags, moles.jpeg";
+import psoriasisAfter from "@assets/wmremove-transformed_1771706643834.jpeg";
+
+const serviceImageMap: Record<string, string> = {
+  acne: acneManagement,
+  hairfall: exosomeHair,
+  regenerative: exosomeScars,
+  pigmentation: laserPigmentation1,
+  psoriasis: psoriasisAfter,
+  "laser-scars": laserPigmentation2,
+  "laser-hair": exosomeHair,
+  hifu: clinicalDermatology1,
+  mnrf: clinicalDermatology2,
+  injectables: botox,
+  peels: clinicalDermatology3,
+  removal: moleRemoval,
+};
 
 const iconMap: Record<string, any> = {
   Sparkles,
@@ -70,7 +96,7 @@ export function Services() {
       </div>
 
       <Dialog open={!!selectedService} onOpenChange={(open) => !open && setSelectedService(null)}>
-        <DialogContent className="sm:max-w-[500px] bg-white border-none rounded-2xl shadow-2xl p-0 overflow-hidden">
+        <DialogContent className="sm:max-w-[600px] bg-white border-none rounded-2xl shadow-2xl p-0 overflow-hidden max-h-[90vh] overflow-y-auto">
           {selectedService && (
             <>
               <div className="bg-[#F5F0EB] p-8 pb-12 relative">
@@ -84,8 +110,17 @@ export function Services() {
                   {selectedService.title}
                 </DialogTitle>
               </div>
+
+              {/* Treatment Image */}
+              <div className="relative h-64 w-full bg-gray-100 overflow-hidden">
+                <img 
+                  src={serviceImageMap[selectedService.id] || ""} 
+                  alt={selectedService.title}
+                  className="w-full h-full object-contain"
+                />
+              </div>
               
-              <div className="p-8 -mt-6 bg-white rounded-t-3xl relative z-10">
+              <div className="p-8 bg-white">
                 <DialogDescription className="text-base text-muted-foreground leading-relaxed mb-6">
                   {selectedService.longDescription}
                 </DialogDescription>

@@ -57,16 +57,8 @@ export function Hero() {
           </div>
           
           <div className="pt-8 flex items-center gap-8 text-sm text-muted-foreground">
-            <div className="flex -space-x-3">
-              {/* Dummy Avatars */}
-              {[1, 2, 3, 4].map((i) => (
-                <div key={i} className="w-10 h-10 rounded-full border-2 border-background bg-gray-200 flex items-center justify-center overflow-hidden">
-                   {/* Avatar placeholder - light gray */}
-                   <div className="w-full h-full bg-gray-300"></div>
-                </div>
-              ))}
-            </div>
-            <p>Trusted by <span className="font-bold text-foreground">5000+</span> happy patients</p>
+            
+            <p> <span  className="font-serif text-2xl font-bold text-primary">4+ </span> Years of Clinical Excellence</p>
           </div>
         </motion.div>
 
@@ -92,8 +84,7 @@ export function Hero() {
               transition={{ delay: 0.8 }}
               className="absolute bottom-8 left-8 bg-white/90 backdrop-blur-md p-4 rounded-xl shadow-lg border border-white/50 max-w-[200px]"
             >
-              <p className="font-serif text-2xl font-bold text-primary">4+</p>
-              <p className="text-sm text-muted-foreground">Years of Clinical Excellence</p>
+            <p>Trusted by <span className="font-bold text-foreground">5000+</span> happy patients</p>
             </motion.div>
           </div>
         </motion.div>

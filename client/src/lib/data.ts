@@ -7,7 +7,8 @@ export const services = [
     description: "Comprehensive solutions for active acne and post-acne scarring using advanced chemical peels and laser therapies.",
     category: "Acne",
     icon: "Sparkles",
-    longDescription: "Our acne protocols are customized to your skin type. We combine medical management with aesthetic procedures like Salicylic peels, microneedling, and CO2 fractional laser for scar revision to restore smooth, clear skin."
+    longDescription: "Our acne protocols are customized to your skin type. We combine medical management with aesthetic procedures like Salicylic peels, microneedling, and CO2 fractional laser for scar revision to restore smooth, clear skin.",
+    image: "Acne Management.jpeg"
   },
   {
     id: "hairfall",
@@ -15,7 +16,8 @@ export const services = [
     description: "Medical management and clinical procedures to arrest hair loss and promote growth.",
     category: "Hair",
     icon: "Activity",
-    longDescription: "Scientifically proven treatments for various types of hair loss, including nutritional support and clinical interventions."
+    longDescription: "Scientifically proven treatments for various types of hair loss, including nutritional support and clinical interventions.",
+    image: "Exosome treatment of hair.jpeg"
   },
   {
     id: "regenerative",
@@ -23,7 +25,8 @@ export const services = [
     description: "Advanced PRP, GFC, and exosome therapies for skin and hair rejuvenation.",
     category: "Cosmetic",
     icon: "Zap",
-    longDescription: "Utilizing your body's own growth factors (PRP/GFC) and cutting-edge exosome technology to stimulate cellular repair and regeneration."
+    longDescription: "Utilizing your body's own growth factors (PRP/GFC) and cutting-edge exosome technology to stimulate cellular repair and regeneration.",
+    image: "Exosome treatment of scars.jpeg"
   },
   {
     id: "pigmentation",
@@ -31,15 +34,17 @@ export const services = [
     description: "Targeted treatments for melasma, sun spots, and uneven skin tone to reveal a brighter complexion.",
     category: "Pigmentation",
     icon: "Sun",
-    longDescription: "Combat stubborn pigmentation with our multi-modal approach combining Q-switched lasers, mesotherapy, and prescription-grade topical regimens."
+    longDescription: "Combat stubborn pigmentation with our multi-modal approach combining Q-switched lasers, mesotherapy, and prescription-grade topical regimens.",
+    image: "Laser for pigmentation.jpeg"
   },
   {
     id: "psoriasis",
     title: "Psoriasis management",
     description: "Evidence-based clinical care for psoriasis to improve quality of life and skin health.",
-    category: "Acne",
+    category: "Clinical",
     icon: "Activity",
-    longDescription: "Specialized care for psoriasis using modern systemic and topical therapies tailored to individual severity."
+    longDescription: "Specialized care for psoriasis using modern systemic and topical therapies tailored to individual severity.",
+    image: "../wmremove-transformed_1771706643834.jpeg"
   },
   {
     id: "laser-scars",
@@ -47,7 +52,8 @@ export const services = [
     description: "Precision laser treatments to reduce scars and even out skin tone.",
     category: "Laser",
     icon: "Zap",
-    longDescription: "Advanced laser technology targeting specific depths to break down scar tissue and pigmented lesions safely."
+    longDescription: "Advanced laser technology targeting specific depths to break down scar tissue and pigmented lesions safely.",
+    image: "Laser for pigmentation2.jpeg"
   },
   {
     id: "laser-hair",
@@ -55,7 +61,8 @@ export const services = [
     description: "Pain-free, permanent hair reduction using state-of-the-art laser technology.",
     category: "Laser",
     icon: "Zap",
-    longDescription: "FDA-approved laser technology ensuring safety and efficacy for all skin types, targeting hair follicles precisely."
+    longDescription: "FDA-approved laser technology ensuring safety and efficacy for all skin types, targeting hair follicles precisely.",
+    image: "Exosome treatment of hair.jpeg"
   },
   {
     id: "hifu",
@@ -63,7 +70,8 @@ export const services = [
     description: "High-Intensity Focused Ultrasound for non-surgical face lifting and skin tightening.",
     category: "Anti-aging",
     icon: "Clock",
-    longDescription: "Deep tissue lifting and tightening using focused ultrasound energy for a natural-looking lift."
+    longDescription: "Deep tissue lifting and tightening using focused ultrasound energy for a natural-looking lift.",
+    image: "Clinical Dermatology.jpeg"
   },
   {
     id: "mnrf",
@@ -71,7 +79,8 @@ export const services = [
     description: "Microneedling Radio Frequency for skin tightening and scar reduction.",
     category: "Anti-aging",
     icon: "Zap",
-    longDescription: "Combining microneedling with radiofrequency energy to stimulate collagen production and improve skin texture."
+    longDescription: "Combining microneedling with radiofrequency energy to stimulate collagen production and improve skin texture.",
+    image: "Clinical Dermatology2.jpeg"
   },
   {
     id: "injectables",
@@ -79,7 +88,8 @@ export const services = [
     description: "Botox, skin boosters, and fillers for facial contouring and rejuvenation.",
     category: "Anti-aging",
     icon: "Clock",
-    longDescription: "Expertly administered injectables to restore volume, smooth wrinkles, and improve skin quality."
+    longDescription: "Expertly administered injectables to restore volume, smooth wrinkles, and improve skin quality.",
+    image: "botox.jpeg"
   },
   {
     id: "peels",
@@ -87,7 +97,8 @@ export const services = [
     description: "Medical-grade chemical peels for skin renewal and radiance.",
     category: "Cosmetic",
     icon: "Sparkles",
-    longDescription: "Range of superficial to deep peels to address various skin concerns from dullness to deep pigmentation."
+    longDescription: "Range of superficial to deep peels to address various skin concerns from dullness to deep pigmentation.",
+    image: "Clinical Dermatology3.jpeg"
   },
   {
     id: "removal",
@@ -95,7 +106,8 @@ export const services = [
     description: "Safe and effective removal of benign skin growths using modern techniques.",
     category: "Cosmetic",
     icon: "Activity",
-    longDescription: "Quick and precise removal of moles, warts, and skin tags with minimal scarring and fast recovery."
+    longDescription: "Quick and precise removal of moles, warts, and skin tags with minimal scarring and fast recovery.",
+    image: "Removal of DPN, warts, tags, moles.jpeg"
   }
 ];
 
